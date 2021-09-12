@@ -261,7 +261,7 @@ const init = async () => {
   await server.start();
   console.log("Server running on %s", server.info.uri);
   socket.connect(server.listener);
-  //setTimeout(ls.init, 2000);
+  setTimeout(ls.init, 2000);
 };
 
 process.on("unhandledRejection", (err) => {
