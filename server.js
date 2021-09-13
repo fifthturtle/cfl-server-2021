@@ -20,6 +20,7 @@ const cors = {
 };
 const socket = require('./lib/socket');
 const _ = require('lodash');
+const schedule = require('./lib/scheduler');
 //const ls = require('./lib/livescoring');
 
 function getAddress() {
