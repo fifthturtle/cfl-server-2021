@@ -21,7 +21,7 @@ const cors = {
 const socket = require('./lib/socket');
 const _ = require('lodash');
 const schedule = require('./lib/scheduler');
-//const ls = require('./lib/livescoring');
+const ls = require('./lib/livescoring');
 
 function getAddress() {
   return new Promise((resolve, reject) => {
@@ -262,7 +262,7 @@ const init = async () => {
   await server.start();
   console.log("Server running on %s", server.info.uri);
   socket.connect(server.listener);
-  //setTimeout(ls.init, 2000);
+  setTimeout(ls.init, 2000);
 };
 
 process.on("unhandledRejection", (err) => {
