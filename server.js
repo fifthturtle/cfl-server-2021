@@ -134,10 +134,8 @@ const init = async () => {
     config: {
       cors,
     },
-    handler: (request, h) => {
-        return {
-            week: cflapi.week()
-        };
+    handler: async (request, h) => {
+        return await cflapi.week();
     },
   });
 
@@ -262,7 +260,7 @@ const init = async () => {
   await server.start();
   console.log("Server running on %s", server.info.uri);
   socket.connect(server.listener);
-  setTimeout(ls.init, 5000);
+  //setTimeout(ls.init, 5000);
 };
 
 process.on("unhandledRejection", (err) => {
