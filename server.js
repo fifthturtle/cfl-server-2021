@@ -23,6 +23,8 @@ const _ = require('lodash');
 const schedule = require('./lib/scheduler');
 const ls = require('./lib/livescoring');
 
+const { sendMail } = require('./lib/email');
+
 function getAddress() {
   return new Promise((resolve, reject) => {
     require("dns").lookup(require("os").hostname(), function (err, add, fam) {
@@ -254,6 +256,18 @@ const init = async () => {
     handler: async (request, h) => {
       const data = socket.allSockets();
       return _.map(data.sockets, x => x.id);
+    }
+  })
+
+  server.route({
+    method: "GET",
+    path: "/api/email",
+    config: {
+      cors,
+    },
+    handler: async (request, h) => {
+      sendMail().catch(console.error);
+      return { dog: "Teddy" };
     }
   })
 
