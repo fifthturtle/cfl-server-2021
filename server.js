@@ -251,7 +251,7 @@ const init = async () => {
     },
     handler: async (request, h) => {
       const data = socket.allSockets();
-      return _.map(data.sockets, x => x.id);
+      return data;
     }
   })
 
