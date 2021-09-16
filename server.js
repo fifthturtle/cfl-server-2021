@@ -20,8 +20,10 @@ const cors = {
 };
 const socket = require('./lib/socket');
 const _ = require('lodash');
-const schedule = require('./lib/scheduler');
-const ls = require('./lib/livescoring');
+
+setTimeout(() => {
+  require('./lib/loader');
+}, 3000);
 
 const { sendMail } = require('./lib/email');
 
@@ -274,7 +276,6 @@ const init = async () => {
   await server.start();
   console.log("Server running on %s", server.info.uri);
   socket.connect(server.listener);
-  //setTimeout(ls.init, 5000);
 };
 
 process.on("unhandledRejection", (err) => {
