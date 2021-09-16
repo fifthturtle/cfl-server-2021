@@ -234,18 +234,12 @@ const init = async () => {
 
   server.route({
     method: "GET",
-    path: "/api/player-test",
+    path: "/api/moves",
     config: {
       cors,
     },
     handler: async (request, h) => {
-      socket.emit('nflschedule', {
-        id: "c5722300-b37c-11eb-9617-afa9727fab42",
-        data: {
-          status: "in_game"
-        },
-      })
-      return {};
+      return await cflapi.moves();
     }
   })
 
