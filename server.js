@@ -189,6 +189,17 @@ const init = async () => {
 
   server.route({
     method: "GET",
+    path: "/api/settings",
+    config: {
+      cors,
+    },
+    handler: async (request, h) => {
+      return await cflapi.settings();
+    },
+  });
+
+  server.route({
+    method: "GET",
     path: "/api/statCodes",
     config: {
       cors,
