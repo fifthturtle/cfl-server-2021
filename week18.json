@@ -1,0 +1,4776 @@
+{
+  "nflschedule_bu": [
+    {
+      "week": 1,
+      "games": [
+        {
+          "_id": "7ae7944e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-08T17:20:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 17,
+            "team": "Rams",
+            "score": 10
+          },
+          "away": {
+            "id": 4,
+            "team": "Bills",
+            "score": 31
+          }
+        },
+        {
+          "_id": "7ae7a948-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 26
+          },
+          "away": {
+            "id": 23,
+            "team": "Saints",
+            "score": 27
+          }
+        },
+        {
+          "_id": "7ae7b07d-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 24
+          },
+          "away": {
+            "id": 8,
+            "team": "Browns",
+            "score": 26
+          }
+        },
+        {
+          "_id": "7ae7b7fc-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 6,
+            "team": "Bears",
+            "score": 19
+          },
+          "away": {
+            "id": 29,
+            "team": "49ers",
+            "score": 10
+          }
+        },
+        {
+          "_id": "7ae7be32-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 20
+          },
+          "away": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 23
+          }
+        },
+        {
+          "_id": "7ae7c4fd-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 11,
+            "team": "Lions",
+            "score": 35
+          },
+          "away": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 38
+          }
+        },
+        {
+          "_id": "7ae7cb8d-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 13,
+            "team": "Texans",
+            "score": 20
+          },
+          "away": {
+            "id": 14,
+            "team": "Colts",
+            "score": 20
+          }
+        },
+        {
+          "_id": "7ae7d61a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 20
+          },
+          "away": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 7
+          }
+        },
+        {
+          "_id": "7ae7de72-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 25,
+            "team": "Jets",
+            "score": 9
+          },
+          "away": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 24
+          }
+        },
+        {
+          "_id": "7ae7eb35-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 28
+          },
+          "away": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 22
+          }
+        },
+        {
+          "_id": "7ae7e4c2-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 31,
+            "team": "Titans",
+            "score": 20
+          },
+          "away": {
+            "id": 24,
+            "team": "Giants",
+            "score": 21
+          }
+        },
+        {
+          "_id": "7ae7f21b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 21
+          },
+          "away": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 44
+          }
+        },
+        {
+          "_id": "7ae7f864-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 24
+          },
+          "away": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 19
+          }
+        },
+        {
+          "_id": "7ae7fefa-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 23
+          },
+          "away": {
+            "id": 12,
+            "team": "Packers",
+            "score": 7
+          }
+        },
+        {
+          "_id": "7ae80583-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-11T17:20:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 3
+          },
+          "away": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 19
+          }
+        },
+        {
+          "_id": "7ae80c21-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-12T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 17
+          },
+          "away": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 16
+          }
+        }
+      ],
+      "byes": []
+    },
+    {
+      "week": 2,
+      "games": [
+        {
+          "_id": "7ae81220-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-15T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 27
+          },
+          "away": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 24
+          }
+        },
+        {
+          "_id": "7ae818dd-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 38
+          },
+          "away": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 42
+          }
+        },
+        {
+          "_id": "7ae81ee8-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 8,
+            "team": "Browns",
+            "score": 30
+          },
+          "away": {
+            "id": 25,
+            "team": "Jets",
+            "score": 31
+          }
+        },
+        {
+          "_id": "7ae82555-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 11,
+            "team": "Lions",
+            "score": 36
+          },
+          "away": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 27
+          }
+        },
+        {
+          "_id": "7ae82b41-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 24
+          },
+          "away": {
+            "id": 14,
+            "team": "Colts",
+            "score": 0
+          }
+        },
+        {
+          "_id": "7ae831e7-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 23,
+            "team": "Saints",
+            "score": 10
+          },
+          "away": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 20
+          }
+        },
+        {
+          "_id": "7ae838ae-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 24,
+            "team": "Giants",
+            "score": 19
+          },
+          "away": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 16
+          }
+        },
+        {
+          "_id": "7ae83f73-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 14
+          },
+          "away": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 17
+          }
+        },
+        {
+          "_id": "7ae8457b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 17,
+            "team": "Rams",
+            "score": 31
+          },
+          "away": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 27
+          }
+        },
+        {
+          "_id": "7ae84bb6-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 29,
+            "team": "49ers",
+            "score": 27
+          },
+          "away": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 7
+          }
+        },
+        {
+          "_id": "7ae85197-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 20
+          },
+          "away": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 17
+          }
+        },
+        {
+          "_id": "7ae8580c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 16
+          },
+          "away": {
+            "id": 13,
+            "team": "Texans",
+            "score": 9
+          }
+        },
+        {
+          "_id": "7ae85f1e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 23
+          },
+          "away": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 29
+          }
+        },
+        {
+          "_id": "7ae86566-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-18T17:20:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 12,
+            "team": "Packers",
+            "score": 27
+          },
+          "away": {
+            "id": 6,
+            "team": "Bears",
+            "score": 10
+          }
+        },
+        {
+          "_id": "7ae86ce1-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-19T16:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 4,
+            "team": "Bills",
+            "score": 41
+          },
+          "away": {
+            "id": 31,
+            "team": "Titans",
+            "score": 7
+          }
+        },
+        {
+          "_id": "7ae873a3-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-19T17:30:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 24
+          },
+          "away": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 7
+          }
+        }
+      ],
+      "byes": []
+    },
+    {
+      "week": 3,
+      "games": [
+        {
+          "_id": "7ae877e1-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-22T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 8,
+            "team": "Browns",
+            "score": 29
+          },
+          "away": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 17
+          }
+        },
+        {
+          "_id": "7ae87c4c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 22
+          },
+          "away": {
+            "id": 23,
+            "team": "Saints",
+            "score": 14
+          }
+        },
+        {
+          "_id": "7ae88080-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 6,
+            "team": "Bears",
+            "score": 23
+          },
+          "away": {
+            "id": 13,
+            "team": "Texans",
+            "score": 20
+          }
+        },
+        {
+          "_id": "7ae88475-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 14,
+            "team": "Colts",
+            "score": 20
+          },
+          "away": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 17
+          }
+        },
+        {
+          "_id": "7ae88861-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 21
+          },
+          "away": {
+            "id": 4,
+            "team": "Bills",
+            "score": 19
+          }
+        },
+        {
+          "_id": "7ae88c9a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 28
+          },
+          "away": {
+            "id": 11,
+            "team": "Lions",
+            "score": 24
+          }
+        },
+        {
+          "_id": "7ae890e3-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 26
+          },
+          "away": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 37
+          }
+        },
+        {
+          "_id": "7ae895d5-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 25,
+            "team": "Jets",
+            "score": 12
+          },
+          "away": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 27
+          }
+        },
+        {
+          "_id": "7ae89aac-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 31,
+            "team": "Titans",
+            "score": 24
+          },
+          "away": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 22
+          }
+        },
+        {
+          "_id": "7ae89f57-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 8
+          },
+          "away": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 24
+          }
+        },
+        {
+          "_id": "7ae8a38b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 10
+          },
+          "away": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 38
+          }
+        },
+        {
+          "_id": "7ae8a7cb-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 12
+          },
+          "away": {
+            "id": 17,
+            "team": "Rams",
+            "score": 20
+          }
+        },
+        {
+          "_id": "7ae8abfc-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 23
+          },
+          "away": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 27
+          }
+        },
+        {
+          "_id": "7ae8b184-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 12
+          },
+          "away": {
+            "id": 12,
+            "team": "Packers",
+            "score": 14
+          }
+        },
+        {
+          "_id": "7ae8b58b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-25T17:20:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 11
+          },
+          "away": {
+            "id": 29,
+            "team": "49ers",
+            "score": 10
+          }
+        },
+        {
+          "_id": "7ae8baf1-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-26T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 24,
+            "team": "Giants",
+            "score": 16
+          },
+          "away": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 23
+          }
+        }
+      ],
+      "byes": []
+    },
+    {
+      "week": 4,
+      "games": [
+        {
+          "_id": "7ae8bfaf-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-09-29T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 27
+          },
+          "away": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 15
+          }
+        },
+        {
+          "_id": "7ae8c66e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T06:30:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 23,
+            "team": "Saints",
+            "score": 25
+          },
+          "away": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 28
+          }
+        },
+        {
+          "_id": "7ae8cb57-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 23
+          },
+          "away": {
+            "id": 8,
+            "team": "Browns",
+            "score": 20
+          }
+        },
+        {
+          "_id": "7ae8d0a5-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 20
+          },
+          "away": {
+            "id": 4,
+            "team": "Bills",
+            "score": 23
+          }
+        },
+        {
+          "_id": "7ae8da25-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 25
+          },
+          "away": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 10
+          }
+        },
+        {
+          "_id": "7ae8de21-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 11,
+            "team": "Lions",
+            "score": 45
+          },
+          "away": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 48
+          }
+        },
+        {
+          "_id": "7ae8e20a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 13,
+            "team": "Texans",
+            "score": 24
+          },
+          "away": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 34
+          }
+        },
+        {
+          "_id": "7ae8e612-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 14,
+            "team": "Colts",
+            "score": 17
+          },
+          "away": {
+            "id": 31,
+            "team": "Titans",
+            "score": 24
+          }
+        },
+        {
+          "_id": "7ae8ea73-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 24,
+            "team": "Giants",
+            "score": 20
+          },
+          "away": {
+            "id": 6,
+            "team": "Bears",
+            "score": 12
+          }
+        },
+        {
+          "_id": "7ae8eee0-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 29
+          },
+          "away": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 21
+          }
+        },
+        {
+          "_id": "7ae8f3a6-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 20
+          },
+          "away": {
+            "id": 25,
+            "team": "Jets",
+            "score": 24
+          }
+        },
+        {
+          "_id": "7ae8d521-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 16
+          },
+          "away": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 26
+          }
+        },
+        {
+          "_id": "7ae8f8b9-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 12,
+            "team": "Packers",
+            "score": 27
+          },
+          "away": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 24
+          }
+        },
+        {
+          "_id": "7ae8fe2c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 32
+          },
+          "away": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 23
+          }
+        },
+        {
+          "_id": "7ae902d8-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-02T17:20:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 31
+          },
+          "away": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 41
+          }
+        },
+        {
+          "_id": "7ae908dc-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-03T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 29,
+            "team": "49ers",
+            "score": 24
+          },
+          "away": {
+            "id": 17,
+            "team": "Rams",
+            "score": 9
+          }
+        }
+      ],
+      "byes": []
+    },
+    {
+      "week": 5,
+      "games": [
+        {
+          "_id": "7ae90ce4-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-06T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 9
+          },
+          "away": {
+            "id": 14,
+            "team": "Colts",
+            "score": 12
+          }
+        },
+        {
+          "_id": "7ae91125-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T06:30:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 12,
+            "team": "Packers",
+            "score": 22
+          },
+          "away": {
+            "id": 24,
+            "team": "Giants",
+            "score": 27
+          }
+        },
+        {
+          "_id": "7ae917a9-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 4,
+            "team": "Bills",
+            "score": 38
+          },
+          "away": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 3
+          }
+        },
+        {
+          "_id": "7ae91e80-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 8,
+            "team": "Browns",
+            "score": 28
+          },
+          "away": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 30
+          }
+        },
+        {
+          "_id": "7ae924a5-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 6
+          },
+          "away": {
+            "id": 13,
+            "team": "Texans",
+            "score": 13
+          }
+        },
+        {
+          "_id": "7ae9290e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 29
+          },
+          "away": {
+            "id": 6,
+            "team": "Bears",
+            "score": 22
+          }
+        },
+        {
+          "_id": "7ae92d18-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 29
+          },
+          "away": {
+            "id": 11,
+            "team": "Lions",
+            "score": 0
+          }
+        },
+        {
+          "_id": "7ae93120-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 23,
+            "team": "Saints",
+            "score": 39
+          },
+          "away": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 32
+          }
+        },
+        {
+          "_id": "7ae935c2-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 25,
+            "team": "Jets",
+            "score": 40
+          },
+          "away": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 17
+          }
+        },
+        {
+          "_id": "7ae93a53-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 21
+          },
+          "away": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 15
+          }
+        },
+        {
+          "_id": "7ae93e64-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 17
+          },
+          "away": {
+            "id": 31,
+            "team": "Titans",
+            "score": 21
+          }
+        },
+        {
+          "_id": "7ae9430c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 15
+          },
+          "away": {
+            "id": 29,
+            "team": "49ers",
+            "score": 37
+          }
+        },
+        {
+          "_id": "7ae94738-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 17
+          },
+          "away": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 20
+          }
+        },
+        {
+          "_id": "7ae94bfa-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 17,
+            "team": "Rams",
+            "score": 10
+          },
+          "away": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 22
+          }
+        },
+        {
+          "_id": "7ae950aa-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-09T17:20:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 19
+          },
+          "away": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 17
+          }
+        },
+        {
+          "_id": "7ae955a6-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-10T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 30
+          },
+          "away": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 29
+          }
+        }
+      ],
+      "byes": []
+    },
+    {
+      "week": 6,
+      "games": [
+        {
+          "_id": "7ae95a33-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-13T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 6,
+            "team": "Bears",
+            "score": 7
+          },
+          "away": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 12
+          }
+        },
+        {
+          "_id": "7ae95e86-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 28
+          },
+          "away": {
+            "id": 29,
+            "team": "49ers",
+            "score": 14
+          }
+        },
+        {
+          "_id": "7ae96309-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 8,
+            "team": "Browns",
+            "score": 15
+          },
+          "away": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 38
+          }
+        },
+        {
+          "_id": "7ae96783-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 12,
+            "team": "Packers",
+            "score": 10
+          },
+          "away": {
+            "id": 25,
+            "team": "Jets",
+            "score": 27
+          }
+        },
+        {
+          "_id": "7ae96c0a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 14,
+            "team": "Colts",
+            "score": 34
+          },
+          "away": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 27
+          }
+        },
+        {
+          "_id": "7ae9709e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 16
+          },
+          "away": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 24
+          }
+        },
+        {
+          "_id": "7ae97558-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 23,
+            "team": "Saints",
+            "score": 26
+          },
+          "away": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 30
+          }
+        },
+        {
+          "_id": "7ae97968-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 24,
+            "team": "Giants",
+            "score": 24
+          },
+          "away": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 20
+          }
+        },
+        {
+          "_id": "7ae97d89-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 20
+          },
+          "away": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 18
+          }
+        },
+        {
+          "_id": "7ae98243-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 17,
+            "team": "Rams",
+            "score": 24
+          },
+          "away": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 10
+          }
+        },
+        {
+          "_id": "7ae986f2-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 19
+          },
+          "away": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 9
+          }
+        },
+        {
+          "_id": "7ae98ad7-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 20
+          },
+          "away": {
+            "id": 4,
+            "team": "Bills",
+            "score": 24
+          }
+        },
+        {
+          "_id": "7ae98f30-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-16T17:20:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 26
+          },
+          "away": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 17
+          }
+        },
+        {
+          "_id": "7ae99351-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-17T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 19
+          },
+          "away": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 16
+          }
+        }
+      ],
+      "byes": [
+        11,
+        13,
+        19,
+        31
+      ]
+    },
+    {
+      "week": 7,
+      "games": [
+        {
+          "_id": "95729836-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-20T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 42
+          },
+          "away": {
+            "id": 23,
+            "team": "Saints",
+            "score": 34
+          }
+        },
+        {
+          "_id": "9572b364-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 23
+          },
+          "away": {
+            "id": 8,
+            "team": "Browns",
+            "score": 20
+          }
+        },
+        {
+          "_id": "9572c3b0-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 21
+          },
+          "away": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 3
+          }
+        },
+        {
+          "_id": "9572d357-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 35
+          },
+          "away": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 17
+          }
+        },
+        {
+          "_id": "9572e486-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 24
+          },
+          "away": {
+            "id": 11,
+            "team": "Lions",
+            "score": 6
+          }
+        },
+        {
+          "_id": "9572f3bc-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 17
+          },
+          "away": {
+            "id": 24,
+            "team": "Giants",
+            "score": 23
+          }
+        },
+        {
+          "_id": "95730357-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 31,
+            "team": "Titans",
+            "score": 19
+          },
+          "away": {
+            "id": 14,
+            "team": "Colts",
+            "score": 10
+          }
+        },
+        {
+          "_id": "9573138d-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 23
+          },
+          "away": {
+            "id": 12,
+            "team": "Packers",
+            "score": 21
+          }
+        },
+        {
+          "_id": "9573217c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 9
+          },
+          "away": {
+            "id": 25,
+            "team": "Jets",
+            "score": 16
+          }
+        },
+        {
+          "_id": "95732d34-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 38
+          },
+          "away": {
+            "id": 13,
+            "team": "Texans",
+            "score": 20
+          }
+        },
+        {
+          "_id": "95733654-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 23
+          },
+          "away": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 37
+          }
+        },
+        {
+          "_id": "95734094-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 29,
+            "team": "49ers",
+            "score": 23
+          },
+          "away": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 44
+          }
+        },
+        {
+          "_id": "957349f6-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-23T17:20:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 16
+          },
+          "away": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 10
+          }
+        },
+        {
+          "_id": "957353ac-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-24T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 14
+          },
+          "away": {
+            "id": 6,
+            "team": "Bears",
+            "score": 33
+          }
+        }
+      ],
+      "byes": [
+        4,
+        17,
+        21,
+        26
+      ]
+    },
+    {
+      "week": 8,
+      "games": [
+        {
+          "_id": "95735cc4-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-27T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 22
+          },
+          "away": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 27
+          }
+        },
+        {
+          "_id": "95736ed7-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T06:30:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 17
+          },
+          "away": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 21
+          }
+        },
+        {
+          "_id": "9573892c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 37
+          },
+          "away": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 34
+          }
+        },
+        {
+          "_id": "957394c8-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 49
+          },
+          "away": {
+            "id": 6,
+            "team": "Bears",
+            "score": 29
+          }
+        },
+        {
+          "_id": "95739e8d-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 11,
+            "team": "Lions",
+            "score": 27
+          },
+          "away": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 31
+          }
+        },
+        {
+          "_id": "9573affb-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 34
+          },
+          "away": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 26
+          }
+        },
+        {
+          "_id": "9573bef7-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 23,
+            "team": "Saints",
+            "score": 24
+          },
+          "away": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 0
+          }
+        },
+        {
+          "_id": "9573c755-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 25,
+            "team": "Jets",
+            "score": 17
+          },
+          "away": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 22
+          }
+        },
+        {
+          "_id": "9573ce4a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T10:00:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 35
+          },
+          "away": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 13
+          }
+        },
+        {
+          "_id": "9573a703-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T13:05:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 13,
+            "team": "Texans",
+            "score": 10
+          },
+          "away": {
+            "id": 31,
+            "team": "Titans",
+            "score": 17
+          }
+        },
+        {
+          "_id": "9573d5dd-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 14,
+            "team": "Colts",
+            "score": 16
+          },
+          "away": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 17
+          }
+        },
+        {
+          "_id": "9573dca4-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 17,
+            "team": "Rams",
+            "score": 14
+          },
+          "away": {
+            "id": 29,
+            "team": "49ers",
+            "score": 31
+          }
+        },
+        {
+          "_id": "9573e35d-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T13:25:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 27
+          },
+          "away": {
+            "id": 24,
+            "team": "Giants",
+            "score": 13
+          }
+        },
+        {
+          "_id": "9573e9f9-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-30T17:20:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 4,
+            "team": "Bills",
+            "score": 27
+          },
+          "away": {
+            "id": 12,
+            "team": "Packers",
+            "score": 17
+          }
+        },
+        {
+          "_id": "9573f0ac-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-10-31T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 8,
+            "team": "Browns",
+            "score": 32
+          },
+          "away": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 13
+          }
+        }
+      ],
+      "byes": [
+        16,
+        18
+      ]
+    },
+    {
+      "week": 9,
+      "games": [
+        {
+          "_id": "9573fb38-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-03T17:15:00-07:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 13,
+            "team": "Texans",
+            "score": 17
+          },
+          "away": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 29
+          }
+        },
+        {
+          "_id": "957406b5-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 17
+          },
+          "away": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 20
+          }
+        },
+        {
+          "_id": "95740f4a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 6,
+            "team": "Bears",
+            "score": 32
+          },
+          "away": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 35
+          }
+        },
+        {
+          "_id": "95741db1-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 42
+          },
+          "away": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 21
+          }
+        },
+        {
+          "_id": "957426fc-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 11,
+            "team": "Lions",
+            "score": 15
+          },
+          "away": {
+            "id": 12,
+            "team": "Packers",
+            "score": 9
+          }
+        },
+        {
+          "_id": "95742ee1-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 27
+          },
+          "away": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 20
+          }
+        },
+        {
+          "_id": "957435f7-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 26
+          },
+          "away": {
+            "id": 14,
+            "team": "Colts",
+            "score": 3
+          }
+        },
+        {
+          "_id": "95743da9-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 25,
+            "team": "Jets",
+            "score": 20
+          },
+          "away": {
+            "id": 4,
+            "team": "Bills",
+            "score": 17
+          }
+        },
+        {
+          "_id": "95744849-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 17
+          },
+          "away": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 20
+          }
+        },
+        {
+          "_id": "95744f1b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 21
+          },
+          "away": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 31
+          }
+        },
+        {
+          "_id": "957455d2-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 16
+          },
+          "away": {
+            "id": 17,
+            "team": "Rams",
+            "score": 13
+          }
+        },
+        {
+          "_id": "95745c73-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-06T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 20
+          },
+          "away": {
+            "id": 31,
+            "team": "Titans",
+            "score": 17
+          }
+        },
+        {
+          "_id": "95746340-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-07T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 23,
+            "team": "Saints",
+            "score": 13
+          },
+          "away": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 27
+          }
+        }
+      ],
+      "byes": [
+        8,
+        9,
+        10,
+        24,
+        27,
+        29
+      ]
+    },
+    {
+      "week": 10,
+      "games": [
+        {
+          "_id": "95746a29-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-10T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 25
+          },
+          "away": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 15
+          }
+        },
+        {
+          "_id": "957471a0-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T06:30:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 21
+          },
+          "away": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 16
+          }
+        },
+        {
+          "_id": "95747922-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 4,
+            "team": "Bills",
+            "score": 30
+          },
+          "away": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 33
+          }
+        },
+        {
+          "_id": "9574802f-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 6,
+            "team": "Bears",
+            "score": 30
+          },
+          "away": {
+            "id": 11,
+            "team": "Lions",
+            "score": 31
+          }
+        },
+        {
+          "_id": "957486fb-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 27
+          },
+          "away": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 17
+          }
+        },
+        {
+          "_id": "95748d8a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 39
+          },
+          "away": {
+            "id": 8,
+            "team": "Browns",
+            "score": 17
+          }
+        },
+        {
+          "_id": "95749454-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 24,
+            "team": "Giants",
+            "score": 24
+          },
+          "away": {
+            "id": 13,
+            "team": "Texans",
+            "score": 16
+          }
+        },
+        {
+          "_id": "95749af6-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 20
+          },
+          "away": {
+            "id": 23,
+            "team": "Saints",
+            "score": 10
+          }
+        },
+        {
+          "_id": "9574a185-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 31,
+            "team": "Titans",
+            "score": 17
+          },
+          "away": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 10
+          }
+        },
+        {
+          "_id": "9574a807-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 20
+          },
+          "away": {
+            "id": 14,
+            "team": "Colts",
+            "score": 25
+          }
+        },
+        {
+          "_id": "9574b063-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 12,
+            "team": "Packers",
+            "score": 31
+          },
+          "away": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 28
+          }
+        },
+        {
+          "_id": "9574b73b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 17,
+            "team": "Rams",
+            "score": 17
+          },
+          "away": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 27
+          }
+        },
+        {
+          "_id": "9574beef-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-13T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 29,
+            "team": "49ers",
+            "score": 22
+          },
+          "away": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 16
+          }
+        },
+        {
+          "_id": "9574c667-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-14T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 21
+          },
+          "away": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 32
+          }
+        }
+      ],
+      "byes": [
+        3,
+        7,
+        22,
+        25
+      ]
+    },
+    {
+      "week": 11,
+      "games": [
+        {
+          "_id": "9574cbf7-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-17T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 12,
+            "team": "Packers",
+            "score": 17
+          },
+          "away": {
+            "id": 31,
+            "team": "Titans",
+            "score": 27
+          }
+        },
+        {
+          "_id": "9574d1d5-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 27
+          },
+          "away": {
+            "id": 6,
+            "team": "Bears",
+            "score": 24
+          }
+        },
+        {
+          "_id": "9574d723-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 13
+          },
+          "away": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 3
+          }
+        },
+        {
+          "_id": "9574db42-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 4,
+            "team": "Bills",
+            "score": 31
+          },
+          "away": {
+            "id": 8,
+            "team": "Browns",
+            "score": 23
+          }
+        },
+        {
+          "_id": "9574df52-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 13,
+            "team": "Texans",
+            "score": 10
+          },
+          "away": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 23
+          }
+        },
+        {
+          "_id": "9574e3a7-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 14,
+            "team": "Colts",
+            "score": 16
+          },
+          "away": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 17
+          }
+        },
+        {
+          "_id": "9574e79d-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 10
+          },
+          "away": {
+            "id": 25,
+            "team": "Jets",
+            "score": 3
+          }
+        },
+        {
+          "_id": "9574eb7c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 23,
+            "team": "Saints",
+            "score": 27
+          },
+          "away": {
+            "id": 17,
+            "team": "Rams",
+            "score": 20
+          }
+        },
+        {
+          "_id": "9574efdf-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 24,
+            "team": "Giants",
+            "score": 18
+          },
+          "away": {
+            "id": 11,
+            "team": "Lions",
+            "score": 31
+          }
+        },
+        {
+          "_id": "9574f418-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 16
+          },
+          "away": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 22
+          }
+        },
+        {
+          "_id": "9574fc3c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 3
+          },
+          "away": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 40
+          }
+        },
+        {
+          "_id": "9575004b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 30
+          },
+          "away": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 37
+          }
+        },
+        {
+          "_id": "9574f84f-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-20T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 27
+          },
+          "away": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 30
+          }
+        },
+        {
+          "_id": "957504c4-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-21T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 10
+          },
+          "away": {
+            "id": 29,
+            "team": "49ers",
+            "score": 38
+          }
+        }
+      ],
+      "byes": [
+        15,
+        20,
+        28,
+        30
+      ]
+    },
+    {
+      "week": 12,
+      "games": [
+        {
+          "_id": "957508cf-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-24T09:30:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 11,
+            "team": "Lions",
+            "score": 25
+          },
+          "away": {
+            "id": 4,
+            "team": "Bills",
+            "score": 28
+          }
+        },
+        {
+          "_id": "95750cfc-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-24T13:30:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 28
+          },
+          "away": {
+            "id": 24,
+            "team": "Giants",
+            "score": 20
+          }
+        },
+        {
+          "_id": "9575113e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-24T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 33
+          },
+          "away": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 26
+          }
+        },
+        {
+          "_id": "95751529-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 23
+          },
+          "away": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 10
+          }
+        },
+        {
+          "_id": "95751a31-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 8,
+            "team": "Browns",
+            "score": 23
+          },
+          "away": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 17
+          }
+        },
+        {
+          "_id": "95751f08-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 28
+          },
+          "away": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 27
+          }
+        },
+        {
+          "_id": "957522f1-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 30
+          },
+          "away": {
+            "id": 13,
+            "team": "Texans",
+            "score": 15
+          }
+        },
+        {
+          "_id": "957526c5-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 25,
+            "team": "Jets",
+            "score": 31
+          },
+          "away": {
+            "id": 6,
+            "team": "Bears",
+            "score": 10
+          }
+        },
+        {
+          "_id": "95752adb-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 31,
+            "team": "Titans",
+            "score": 16
+          },
+          "away": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 20
+          }
+        },
+        {
+          "_id": "95752f48-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 19
+          },
+          "away": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 13
+          }
+        },
+        {
+          "_id": "9575332e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 24
+          },
+          "away": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 25
+          }
+        },
+        {
+          "_id": "9575372f-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 34
+          },
+          "away": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 40
+          }
+        },
+        {
+          "_id": "95753b63-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 26
+          },
+          "away": {
+            "id": 17,
+            "team": "Rams",
+            "score": 10
+          }
+        },
+        {
+          "_id": "95753f79-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 29,
+            "team": "49ers",
+            "score": 13
+          },
+          "away": {
+            "id": 23,
+            "team": "Saints",
+            "score": 0
+          }
+        },
+        {
+          "_id": "9575435c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-27T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 40
+          },
+          "away": {
+            "id": 12,
+            "team": "Packers",
+            "score": 33
+          }
+        },
+        {
+          "_id": "9575472a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-11-28T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 14,
+            "team": "Colts",
+            "score": 17
+          },
+          "away": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 24
+          }
+        }
+      ],
+      "byes": []
+    },
+    {
+      "week": 13,
+      "games": [
+        {
+          "_id": "ba0e8213-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-01T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 10
+          },
+          "away": {
+            "id": 4,
+            "team": "Bills",
+            "score": 24
+          }
+        },
+        {
+          "_id": "ba0e9b6e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 16
+          },
+          "away": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 19
+          }
+        },
+        {
+          "_id": "ba0ea71e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 10
+          },
+          "away": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 9
+          }
+        },
+        {
+          "_id": "ba0eb19b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 6,
+            "team": "Bears",
+            "score": 19
+          },
+          "away": {
+            "id": 12,
+            "team": "Packers",
+            "score": 28
+          }
+        },
+        {
+          "_id": "ba0eba85-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 11,
+            "team": "Lions",
+            "score": 40
+          },
+          "away": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 14
+          }
+        },
+        {
+          "_id": "ba0f6ad4-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 13,
+            "team": "Texans",
+            "score": 14
+          },
+          "away": {
+            "id": 8,
+            "team": "Browns",
+            "score": 27
+          }
+        },
+        {
+          "_id": "ba0f83c3-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 27
+          },
+          "away": {
+            "id": 25,
+            "team": "Jets",
+            "score": 22
+          }
+        },
+        {
+          "_id": "ba0f8d4b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 24,
+            "team": "Giants",
+            "score": 20
+          },
+          "away": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 20
+          }
+        },
+        {
+          "_id": "ba0f95eb-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 35
+          },
+          "away": {
+            "id": 31,
+            "team": "Titans",
+            "score": 10
+          }
+        },
+        {
+          "_id": "ba0f9dfa-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 17,
+            "team": "Rams",
+            "score": 23
+          },
+          "away": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 27
+          }
+        },
+        {
+          "_id": "ba0fa903-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 29,
+            "team": "49ers",
+            "score": 33
+          },
+          "away": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 17
+          }
+        },
+        {
+          "_id": "ba0fb3e6-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 27
+          },
+          "away": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 24
+          }
+        },
+        {
+          "_id": "ba0fbcea-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 27
+          },
+          "away": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 20
+          }
+        },
+        {
+          "_id": "ba0fc5a8-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-04T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 54
+          },
+          "away": {
+            "id": 14,
+            "team": "Colts",
+            "score": 19
+          }
+        },
+        {
+          "_id": "ba0fcdc5-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-05T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 17
+          },
+          "away": {
+            "id": 23,
+            "team": "Saints",
+            "score": 16
+          }
+        }
+      ],
+      "byes": [
+        1,
+        5
+      ]
+    },
+    {
+      "week": 14,
+      "games": [
+        {
+          "_id": "ba0fd706-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-08T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 17,
+            "team": "Rams",
+            "score": 17
+          },
+          "away": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 16
+          }
+        },
+        {
+          "_id": "ba0fdf9e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 4,
+            "team": "Bills",
+            "score": 20
+          },
+          "away": {
+            "id": 25,
+            "team": "Jets",
+            "score": 12
+          }
+        },
+        {
+          "_id": "ba0fe970-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 23
+          },
+          "away": {
+            "id": 8,
+            "team": "Browns",
+            "score": 10
+          }
+        },
+        {
+          "_id": "ba0ff31e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 27
+          },
+          "away": {
+            "id": 13,
+            "team": "Texans",
+            "score": 23
+          }
+        },
+        {
+          "_id": "ba0ffb11-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 11,
+            "team": "Lions",
+            "score": 34
+          },
+          "away": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 23
+          }
+        },
+        {
+          "_id": "ba1002d9-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 24,
+            "team": "Giants",
+            "score": 22
+          },
+          "away": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 48
+          }
+        },
+        {
+          "_id": "ba100d39-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 14
+          },
+          "away": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 16
+          }
+        },
+        {
+          "_id": "ba1015df-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 31,
+            "team": "Titans",
+            "score": 22
+          },
+          "away": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 36
+          }
+        },
+        {
+          "_id": "ba103839-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 28
+          },
+          "away": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 34
+          }
+        },
+        {
+          "_id": "ba102760-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 24
+          },
+          "away": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 30
+          }
+        },
+        {
+          "_id": "ba102f4c-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 29,
+            "team": "49ers",
+            "score": 35
+          },
+          "away": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 7
+          }
+        },
+        {
+          "_id": "ba101e7e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-11T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 23
+          },
+          "away": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 17
+          }
+        },
+        {
+          "_id": "ba104041-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-12T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 13
+          },
+          "away": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 27
+          }
+        }
+      ],
+      "byes": [
+        2,
+        6,
+        12,
+        14,
+        23,
+        32
+      ]
+    },
+    {
+      "week": 15,
+      "games": [
+        {
+          "_id": "ba104950-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-15T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 13
+          },
+          "away": {
+            "id": 29,
+            "team": "49ers",
+            "score": 21
+          }
+        },
+        {
+          "_id": "ba10604a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-17T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 39
+          },
+          "away": {
+            "id": 14,
+            "team": "Colts",
+            "score": 36
+          }
+        },
+        {
+          "_id": "ba1058d2-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-17T13:30:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 8,
+            "team": "Browns",
+            "score": 13
+          },
+          "away": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 3
+          }
+        },
+        {
+          "_id": "ba105120-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-17T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 4,
+            "team": "Bills",
+            "score": 32
+          },
+          "away": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 29
+          }
+        },
+        {
+          "_id": "ba1067eb-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 23,
+            "team": "Saints",
+            "score": 21
+          },
+          "away": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 18
+          }
+        },
+        {
+          "_id": "ba107716-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 16
+          },
+          "away": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 24
+          }
+        },
+        {
+          "_id": "ba107f18-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 6,
+            "team": "Bears",
+            "score": 20
+          },
+          "away": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 25
+          }
+        },
+        {
+          "_id": "ba1087d8-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 13,
+            "team": "Texans",
+            "score": 24
+          },
+          "away": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 30
+          }
+        },
+        {
+          "_id": "ba109050-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 40
+          },
+          "away": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 34
+          }
+        },
+        {
+          "_id": "ba109888-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 25,
+            "team": "Jets",
+            "score": 17
+          },
+          "away": {
+            "id": 11,
+            "team": "Lions",
+            "score": 20
+          }
+        },
+        {
+          "_id": "ba10a158-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 24
+          },
+          "away": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 15
+          }
+        },
+        {
+          "_id": "ba10b55a-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 30
+          },
+          "away": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 24
+          }
+        },
+        {
+          "_id": "ba10a983-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 17
+          },
+          "away": {
+            "id": 31,
+            "team": "Titans",
+            "score": 14
+          }
+        },
+        {
+          "_id": "ba10b150-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 23
+          },
+          "away": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 34
+          }
+        },
+        {
+          "_id": "ba106f84-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-18T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 12
+          },
+          "away": {
+            "id": 24,
+            "team": "Giants",
+            "score": 20
+          }
+        },
+        {
+          "_id": "ba10ba3f-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-19T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 12,
+            "team": "Packers",
+            "score": 24
+          },
+          "away": {
+            "id": 17,
+            "team": "Rams",
+            "score": 12
+          }
+        }
+      ],
+      "byes": []
+    },
+    {
+      "week": 16,
+      "games": [
+        {
+          "_id": "ba10bf69-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-22T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 25,
+            "team": "Jets",
+            "score": 3
+          },
+          "away": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 19
+          }
+        },
+        {
+          "_id": "ba10c3fc-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 17
+          },
+          "away": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 9
+          }
+        },
+        {
+          "_id": "ba10c8ea-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 37
+          },
+          "away": {
+            "id": 11,
+            "team": "Lions",
+            "score": 23
+          }
+        },
+        {
+          "_id": "ba10cf37-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 6,
+            "team": "Bears",
+            "score": 13
+          },
+          "away": {
+            "id": 4,
+            "team": "Bills",
+            "score": 35
+          }
+        },
+        {
+          "_id": "ba10d466-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 8,
+            "team": "Browns",
+            "score": 10
+          },
+          "away": {
+            "id": 23,
+            "team": "Saints",
+            "score": 17
+          }
+        },
+        {
+          "_id": "ba10d8a4-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 24
+          },
+          "away": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 10
+          }
+        },
+        {
+          "_id": "ba10dd5b-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 27
+          },
+          "away": {
+            "id": 24,
+            "team": "Giants",
+            "score": 24
+          }
+        },
+        {
+          "_id": "ba10e332-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 18
+          },
+          "away": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 22
+          }
+        },
+        {
+          "_id": "ba10e78e-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 31,
+            "team": "Titans",
+            "score": 14
+          },
+          "away": {
+            "id": 13,
+            "team": "Texans",
+            "score": 19
+          }
+        },
+        {
+          "_id": "ba10eca5-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 29,
+            "team": "49ers",
+            "score": 37
+          },
+          "away": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 20
+          }
+        },
+        {
+          "_id": "ba10f1c1-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 40
+          },
+          "away": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 34
+          }
+        },
+        {
+          "_id": "ba10f744-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-24T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 13
+          },
+          "away": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 10
+          }
+        },
+        {
+          "_id": "ba10fc16-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-25T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 20
+          },
+          "away": {
+            "id": 12,
+            "team": "Packers",
+            "score": 26
+          }
+        },
+        {
+          "_id": "ba1101be-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-25T13:30:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 17,
+            "team": "Rams",
+            "score": 51
+          },
+          "away": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 14
+          }
+        },
+        {
+          "_id": "ba110615-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-25T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 16
+          },
+          "away": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 19
+          }
+        },
+        {
+          "_id": "ba110bac-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-26T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 14,
+            "team": "Colts",
+            "score": 3
+          },
+          "away": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 20
+          }
+        }
+      ],
+      "byes": []
+    },
+    {
+      "week": 17,
+      "games": [
+        {
+          "_id": "ba111050-d24c-11ec-b23d-d15a91047884",
+          "time": "2022-12-29T17:15:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 31,
+            "team": "Titans",
+            "score": 13
+          },
+          "away": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 27
+          }
+        },
+        {
+          "_id": "ba111497-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 20
+          },
+          "away": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 19
+          }
+        },
+        {
+          "_id": "ba111dc9-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 11,
+            "team": "Lions",
+            "score": 41
+          },
+          "away": {
+            "id": 6,
+            "team": "Bears",
+            "score": 10
+          }
+        },
+        {
+          "_id": "ba112239-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 13,
+            "team": "Texans",
+            "score": 3
+          },
+          "away": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 31
+          }
+        },
+        {
+          "_id": "ba1126f4-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 27
+          },
+          "away": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 24
+          }
+        },
+        {
+          "_id": "ba112d95-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 23
+          },
+          "away": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 21
+          }
+        },
+        {
+          "_id": "ba113216-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 24,
+            "team": "Giants",
+            "score": 38
+          },
+          "away": {
+            "id": 14,
+            "team": "Colts",
+            "score": 10
+          }
+        },
+        {
+          "_id": "ba1136f4-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 10
+          },
+          "away": {
+            "id": 23,
+            "team": "Saints",
+            "score": 20
+          }
+        },
+        {
+          "_id": "ba113ae4-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 30
+          },
+          "away": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 24
+          }
+        },
+        {
+          "_id": "ba114044-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T10:00:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 10
+          },
+          "away": {
+            "id": 8,
+            "team": "Browns",
+            "score": 24
+          }
+        },
+        {
+          "_id": "ba11445e-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 34
+          },
+          "away": {
+            "id": 29,
+            "team": "49ers",
+            "score": 37
+          }
+        },
+        {
+          "_id": "ba114963-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T13:05:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 23
+          },
+          "away": {
+            "id": 25,
+            "team": "Jets",
+            "score": 6
+          }
+        },
+        {
+          "_id": "ba114e3e-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 12,
+            "team": "Packers",
+            "score": 41
+          },
+          "away": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 17
+          }
+        },
+        {
+          "_id": "ba1152d0-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T13:25:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 31
+          },
+          "away": {
+            "id": 17,
+            "team": "Rams",
+            "score": 10
+          }
+        },
+        {
+          "_id": "ba111902-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-01T17:20:00-08:00",
+          "status": "game_closed",
+          "quarter": "END OF GAME",
+          "clock": "Final",
+          "home": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 13
+          },
+          "away": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 16
+          }
+        },
+        {
+          "_id": "ba11573c-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-02T17:30:00-08:00",
+          "status": "active_game",
+          "quarter": "Q1",
+          "clock": "SUS",
+          "home": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 7
+          },
+          "away": {
+            "id": 4,
+            "team": "Bills",
+            "score": 3
+          }
+        }
+      ],
+      "byes": []
+    },
+    {
+      "week": 18,
+      "games": [
+        {
+          "_id": "ba116920-d24c-11ec-b23d-d15a91047884",
+          "time": null,
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Wed 4:00pm PST",
+          "home": {
+            "id": 7,
+            "team": "Bengals",
+            "score": 0
+          },
+          "away": {
+            "id": 3,
+            "team": "Ravens",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba11997e-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-07T13:30:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sat 1:30pm PST",
+          "home": {
+            "id": 19,
+            "team": "Raiders",
+            "score": 0
+          },
+          "away": {
+            "id": 16,
+            "team": "Chiefs",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba1178d1-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-07T17:15:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sat 5:15pm PST",
+          "home": {
+            "id": 15,
+            "team": "Jaguars",
+            "score": 0
+          },
+          "away": {
+            "id": 31,
+            "team": "Titans",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba115c58-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T10:00:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 10:00am PST",
+          "home": {
+            "id": 2,
+            "team": "Falcons",
+            "score": 0
+          },
+          "away": {
+            "id": 30,
+            "team": "Buccaneers",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba1160bf-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T10:00:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 10:00am PST",
+          "home": {
+            "id": 4,
+            "team": "Bills",
+            "score": 0
+          },
+          "away": {
+            "id": 22,
+            "team": "Patriots",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba1164ae-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T10:00:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 10:00am PST",
+          "home": {
+            "id": 6,
+            "team": "Bears",
+            "score": 0
+          },
+          "away": {
+            "id": 21,
+            "team": "Vikings",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba117493-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T10:00:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 10:00am PST",
+          "home": {
+            "id": 14,
+            "team": "Colts",
+            "score": 0
+          },
+          "away": {
+            "id": 13,
+            "team": "Texans",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba117d16-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T10:00:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 10:00am PST",
+          "home": {
+            "id": 20,
+            "team": "Dolphins",
+            "score": 0
+          },
+          "away": {
+            "id": 25,
+            "team": "Jets",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba1181ba-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T10:00:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 10:00am PST",
+          "home": {
+            "id": 23,
+            "team": "Saints",
+            "score": 0
+          },
+          "away": {
+            "id": 5,
+            "team": "Panthers",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba118b79-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T10:00:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 10:00am PST",
+          "home": {
+            "id": 27,
+            "team": "Steelers",
+            "score": 0
+          },
+          "away": {
+            "id": 8,
+            "team": "Browns",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba1185b1-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T13:25:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 1:25pm PST",
+          "home": {
+            "id": 26,
+            "team": "Eagles",
+            "score": 0
+          },
+          "away": {
+            "id": 24,
+            "team": "Giants",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba1190ea-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T13:25:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 1:25pm PST",
+          "home": {
+            "id": 32,
+            "team": "Commanders",
+            "score": 0
+          },
+          "away": {
+            "id": 9,
+            "team": "Cowboys",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba119530-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T13:25:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 1:25pm PST",
+          "home": {
+            "id": 10,
+            "team": "Broncos",
+            "score": 0
+          },
+          "away": {
+            "id": 18,
+            "team": "Chargers",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba119dc8-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T13:25:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 1:25pm PST",
+          "home": {
+            "id": 28,
+            "team": "Seahawks",
+            "score": 0
+          },
+          "away": {
+            "id": 17,
+            "team": "Rams",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba11a24a-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T13:25:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 1:25pm PST",
+          "home": {
+            "id": 29,
+            "team": "49ers",
+            "score": 0
+          },
+          "away": {
+            "id": 1,
+            "team": "Cardinals",
+            "score": 0
+          }
+        },
+        {
+          "_id": "ba116e14-d24c-11ec-b23d-d15a91047884",
+          "time": "2023-01-08T17:20:00-08:00",
+          "status": "pre_game",
+          "quarter": null,
+          "clock": "Sun 5:20pm PST",
+          "home": {
+            "id": 12,
+            "team": "Packers",
+            "score": 0
+          },
+          "away": {
+            "id": 11,
+            "team": "Lions",
+            "score": 0
+          }
+        }
+      ],
+      "byes": []
+    }
+  ]
+}
