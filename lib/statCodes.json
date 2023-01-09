@@ -1,0 +1,243 @@
+[{
+  "_id": 38,
+  "abbr": "40-49",
+  "name": "FG Made 40-49",
+  "shortName": "FG 40-49",
+  "pos": [
+    "K"
+  ],
+  "show": true
+},{
+  "_id": 21,
+  "abbr": "Yds",
+  "name": "Receiving Yards",
+  "shortName": "Rec Yds",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 5,
+  "abbr": "Yds",
+  "name": "Passing Yards",
+  "shortName": "Pass Yds",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 6,
+  "abbr": "TD",
+  "name": "Passing Touchdowns",
+  "shortName": "Pass TD",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 1,
+  "abbr": "GP",
+  "name": "Games Played",
+  "shortName": "G",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": false
+},{
+  "_id": 34,
+  "abbr": "FG",
+  "name": "Field Goals",
+  "shortName": "FG",
+  "sum": [
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "pos": [
+    "K"
+  ],
+  "show": true
+},{
+  "_id": 36,
+  "abbr": "20-29",
+  "name": "FG Made 20-29",
+  "shortName": "FG 20-29",
+  "pos": [
+    "K"
+  ],
+  "show": false
+},{
+  "_id": 54,
+  "abbr": "Pts",
+  "name": "Points Allowed",
+  "shortName": "Pts Allow",
+  "def": true,
+  "pos": [
+    "DEF"
+  ],
+  "show": true
+},{
+  "_id": 33,
+  "abbr": "XP",
+  "name": "PAT Made",
+  "shortName": "PAT",
+  "pos": [
+    "K"
+  ],
+  "show": true
+},{
+  "_id": 7,
+  "abbr": "Int",
+  "name": "Interceptions Thrown",
+  "shortName": "Pass Int",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 28,
+  "abbr": "Ret",
+  "name": "Kickoff and Punt Return Touchdowns",
+  "shortName": "P/KO TD",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 35,
+  "abbr": "0-19",
+  "name": "FG Made 0-19",
+  "shortName": "FG 0-19",
+  "pos": [
+    "K"
+  ],
+  "show": false
+},{
+  "_id": 37,
+  "abbr": "30-39",
+  "name": "FG Made 30-39",
+  "shortName": "FG 30-39",
+  "pos": [
+    "K"
+  ],
+  "show": false
+},{
+  "_id": 46,
+  "abbr": "Int",
+  "name": "Interceptions",
+  "shortName": "Int",
+  "def": true,
+  "pos": [
+    "DEF"
+  ],
+  "show": true
+},{
+  "_id": 49,
+  "abbr": "Saf",
+  "name": "Safeties",
+  "shortName": "Saf",
+  "def": true,
+  "pos": [
+    "DEF"
+  ],
+  "show": true
+},{
+  "_id": 16,
+  "abbr": "40+",
+  "name": "40+ Rushing Yard TD Bonus",
+  "shortName": "40+ TD",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 15,
+  "abbr": "TD",
+  "name": "Rushing Touchdowns",
+  "shortName": "Rush TD",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 14,
+  "abbr": "Yds",
+  "name": "Rushing Yards",
+  "shortName": "Rush Yds",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 32,
+  "abbr": "2PT",
+  "name": "2-Point Conversions",
+  "shortName": "2PT",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 39,
+  "abbr": "50+",
+  "name": "FG Made 50+",
+  "shortName": "FG 50+",
+  "pos": [
+    "K"
+  ],
+  "show": true
+},{
+  "_id": 22,
+  "abbr": "TD",
+  "name": "Receiving Touchdowns",
+  "shortName": "Rec TD",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+},{
+  "_id": 50,
+  "abbr": "TD",
+  "name": "Touchdowns",
+  "shortName": "TD",
+  "def": true,
+  "pos": [
+    "DEF"
+  ],
+  "show": true
+},{
+  "_id": 24,
+  "abbr": "50+",
+  "name": "50+ Receiving Yard TD Bonus",
+  "shortName": "50+ TD",
+  "pos": [
+    "QB",
+    "RB",
+    "WR"
+  ],
+  "show": true
+}]
