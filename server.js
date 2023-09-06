@@ -7,19 +7,42 @@ const Path = require('path');
 const cflapi = require("./lib/cflapi.js");
 const cors = {
   origin: ["*"],
-  headers: [
-    "Access-Control-Allow-Origin",
-    "Access-Control-Allow-Headers",
-    "Access-Control-Allow-Methods",
-    "Access-Control-Request-Headers",
-    "Origin, X-Requested-With, Content-Type",
-    "CORELATION_ID",
-  ],
-  additionalHeaders: ['cache-control', 'x-requested-with', 'X_AUTH_TOKEN'],
-  credentials: true,
+  // headers: [
+  //   "Access-Control-Allow-Origin",
+  //   "Access-Control-Allow-Headers",
+  //   "Access-Control-Allow-Methods",
+  //   "Access-Control-Request-Headers",
+  //   "Origin, X-Requested-With, Content-Type",
+  //   "CORELATION_ID",
+  // ],
+  // additionalHeaders: ['cache-control', 'x-requested-with', 'X_AUTH_TOKEN'],
+  // credentials: true,
 };
+const cor3s =  {
+      "origin": ["http://192.168.1.13:4200"],
+      "headers": ["Accept", "Content-Type"],
+      "additionalHeaders": ["X-Requested-With"]
+  }
 const socket = require('./lib/socket');
 const _ = require('lodash');
+const multer = require('multer');
+const path = require('path');
+
+var storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+      cb(null, './images')
+    },
+    filename : function(req, file, callback) {
+        console.log(file)
+        callback(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname))
+    }
+  });
+   //Store in storage
+    const upload = multer({
+        storage: storage
+    });
+
+const singleUpload = upload.single('newImage');
 
 setTimeout(() => {
   require('./lib/loader');
@@ -38,9 +61,10 @@ function getAddress() {
 
 const config = {
   port: process.env.PORT || 8080,
+  host: "http://192.168.12.252",
   routes: {
     cors: {
-        origin: ["Access-Control-Allow-Origin", "http://localhost:4200"], // an array of origins or 'ignore'
+        origin: ['http://localhost:4200'], // an array of origins or 'ignore'
         "headers": ["Accept", "Content-Type"],
         "additionalHeaders": ["X-Requested-With"]
     },
@@ -64,6 +88,28 @@ const init = async () => {
   await server.register(require('@hapi/inert'));
 
   server.route({
+    method: "POST",
+    path: "/api/uploadlogo",
+    config: {
+      cors,
+    },
+    handler: function(request, res) {
+        console.log('I am Matt Sutton!');
+        singleUpload(request, res, err => {
+          if (err) {
+            console.log('oops there was an error');
+            return res.status(422).send({errors: [{title: 'File Upload Error', detail: err.message}] });
+          } else {
+            imageName =  req.file.filename;
+            var imagePath = req.file.path;
+            console.log(imagePath);
+            return res.send({success:true,  imageName});
+          }
+        })
+    }
+  })
+
+  server.route({
     method: "GET",
     path: "/images/{image}",
     config: {
@@ -82,6 +128,39 @@ const init = async () => {
     },
     handler: async (request, h) => {
       return await cflapi.draft();
+    }
+  })
+
+  server.route({
+    method: "POST",
+    path: "/api/updateowner",
+    config: {
+      cors
+    },
+    handler: async (req, res) => {
+      return await cflapi.UpdateOwner(req.payload.owner_id, req.payload.property, req.payload.value);
+    }
+  })
+
+  server.route({
+    method: "POST",
+    path: "/api/resetpassword",
+    config: {
+      cors
+    },
+    handler: async (req, res) => {
+      return await cflapi.PasswordReset(req.payload.owner_id);
+    }
+  })
+
+  server.route({
+    method: "POST",
+    path: "/api/login",
+    config: {
+      cors
+    },
+    handler: async (req, res) => {
+      return await cflapi.login(req.payload.credentials.owner_id, req.payload.credentials.password, req.payload.credentials.key);
     }
   })
 
@@ -154,16 +233,16 @@ const init = async () => {
     },
   });
 
-  server.route({
-    method:["POST"],
-    path: "/api/login",
-    options: {
-      cors,
-      handler: async (req, h) => {
-        return await cflapi.login(req.payload.owner_id, req.payload.password);
-      }
-    }
-  })
+  // server.route({
+  //   method:["POST"],
+  //   path: "/api/login",
+  //   options: {
+  //     cors,
+  //     handler: async (req, h) => {
+  //       return await cflapi.login(req.payload.owner_id, req.payload.password);
+  //     }
+  //   }
+  // })
 
   server.route({
     method: "GET",
