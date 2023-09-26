@@ -132,6 +132,29 @@ const init = async () => {
   })
 
   server.route({
+    method: "GET",
+    path: "/api/weeklymessage",
+    config: {
+      cors
+    },
+    handler: async (request, h) => {
+      return await cflapi.WeeklyMessage();
+    }
+  })
+
+  server.route({
+    method: "POST",
+    path: "/api/message",
+    config: {
+      cors
+    },
+    handler: async (req, res) => {
+      return await cflapi.Message(req.payload.data);
+    }
+
+  })
+
+  server.route({
     method: "POST",
     path: "/api/updateowner",
     config: {
