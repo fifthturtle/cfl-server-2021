@@ -258,7 +258,7 @@ const init = async () => {
 
   server.route({
     method:"POST",
-    path:"colangelo",
+    path:"/colangelo",
     config: {
       cors,
     },
