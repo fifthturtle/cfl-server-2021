@@ -256,6 +256,18 @@ const init = async () => {
     },
   });
 
+  server.route({
+    method:"POST",
+    path:"colangelo",
+    config: {
+      cors,
+    },
+    handler: async(req, h) => {
+      console.log(req.payload);
+      return { "Teddy": "PEPPER" };
+    }
+  })
+
   // server.route({
   //   method:["POST"],
   //   path: "/api/login",
