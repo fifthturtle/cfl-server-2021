@@ -27,6 +27,7 @@ const socket = require('./lib/socket');
 const _ = require('lodash');
 const multer = require('multer');
 const path = require('path');
+const colangelo = require('./lib/colangelo.js');
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -258,15 +259,47 @@ const init = async () => {
 
   server.route({
     method:"POST",
-    path:"/colangelo",
+    path:"/colangelo/data",
     config: {
       cors,
     },
     handler: async(req, h) => {
-      console.log(req.payload);
-      return { "Teddy": "PEPPER" };
+      return colangelo.processData(req.payload);
     }
-  })
+  });
+
+  server.route({
+    method:"POST",
+    path:"/colangelo/reset",
+    config: {
+      cors,
+    },
+    handler: async(req, h) => {
+      return colangelo.resetGame(req.payload);
+    }
+  });
+
+  server.route({
+    method:"GET",
+    path:"/colangelo/stats",
+    config: {
+      cors,
+    },
+    handler: async(req, h) => {
+      return colangelo.getData();
+    }
+  });
+
+  server.route({
+    method:"GET",
+    path:"/colangelo/compare",
+    config: {
+      cors,
+    },
+    handler: async(req, h) => {
+      return colangelo.getCompare();
+    }
+  });
 
   // server.route({
   //   method:["POST"],
