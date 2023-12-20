@@ -275,6 +275,7 @@ const init = async () => {
       cors,
     },
     handler: async(req, h) => {
+      console.log('Colangelo Reset', req.payload);
       return colangelo.resetGame(req.payload);
     }
   });
