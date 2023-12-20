@@ -264,6 +264,7 @@ const init = async () => {
       cors,
     },
     handler: async(req, h) => {
+      console.log('process Data', req.payload);
       return colangelo.processData(req.payload);
     }
   });
