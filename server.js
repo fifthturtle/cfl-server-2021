@@ -117,19 +117,6 @@ const init = async () => {
       cors,
     },
     handler: function(request, h) {
-
-      server.route({
-        method: "GET",
-        path: "/api/wnba",
-        config: {
-          cors,
-        },
-        handler: async (request, h) => {
-          console.log("WNBA request received, bizzzatch");
-          return request.payload;
-        }
-    
-      })
       return h.file(request.params.image);
     }
   });
@@ -142,8 +129,7 @@ const init = async () => {
     },
     handler: async (request, h) => {
       console.log("WNBA request received, bizzzatch");
-      console.log(request.payload);
-      return await cflapi.draft();
+      return await cflapi.wnba(request.payload);
     }
   })
 
