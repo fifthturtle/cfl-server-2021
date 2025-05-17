@@ -320,7 +320,7 @@ const init = async () => {
       cors,
     },
     handler: async (request, h) => {
-      console.log("WNBA request received");
+      console.log("WNBA request received, bizzatch");
       return request.payload;
     }
 
