@@ -123,6 +123,17 @@ const init = async () => {
 
   server.route({
     method: "GET",
+    path: "/api/wnba",
+    config: {
+      cors
+    },
+    handler: async (request, h) => {
+      return request.payload;
+    }
+  })
+
+  server.route({
+    method: "GET",
     path: "/api/draft",
     config: {
       cors
