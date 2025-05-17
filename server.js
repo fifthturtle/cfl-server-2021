@@ -315,6 +315,18 @@ const init = async () => {
 
   server.route({
     method: "GET",
+    path: "/api/wnba",
+    config: {
+      cors,
+    },
+    handler: async (request, h) => {
+      return await request.payload;
+    }
+
+  })
+
+  server.route({
+    method: "GET",
     path: "/api/nflschedule",
     config: {
       cors,
