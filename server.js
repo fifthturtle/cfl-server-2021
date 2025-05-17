@@ -125,13 +125,15 @@ const init = async () => {
     method: "GET",
     path: "/api/wnba",
     config: {
-      cors
+      cors,
     },
     handler: async (request, h) => {
+      console.log("WNBA request received, bizzzatch");
       return request.payload;
     }
   })
 
+  
   server.route({
     method: "GET",
     path: "/api/draft",
