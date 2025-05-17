@@ -135,7 +135,7 @@ const init = async () => {
   });
 
   server.route({
-    method: "GET",
+    method: "POST",
     path: "/api/wnba",
     config: {
       cors,
