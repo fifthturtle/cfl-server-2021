@@ -128,7 +128,6 @@ const init = async () => {
       cors,
     },
     handler: async (request, h) => {
-      console.log("WNBA REQUEST:");
       return await cflapi.wnba(request.payload);
     }
   })
