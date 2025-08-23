@@ -80,7 +80,7 @@ const init = async () => {
   await getAddress()
     .then((res) => {
       console.log("host address is " + res);
-      config.host = "0.0.0.0"; //res;
+      config.host = res; //"0.0.0.0"; //res;
     })
     .catch((err) => {
       console.log("cannot get ip address", err);
