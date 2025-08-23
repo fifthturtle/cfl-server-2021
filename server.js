@@ -80,7 +80,7 @@ const init = async () => {
   await getAddress()
     .then((res) => {
       console.log("host address is " + res);
-      config.host = res; //"0.0.0.0"; //res;
+      config.host = "0.0.0.0"; //res;
     })
     .catch((err) => {
       console.log("cannot get ip address", err);
@@ -96,7 +96,6 @@ const init = async () => {
       cors,
     },
     handler: function(request, res) {
-        console.log('I am Matt Sutton!');
         singleUpload(request, res, err => {
           if (err) {
             console.log('oops there was an error');
