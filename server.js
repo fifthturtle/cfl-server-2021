@@ -62,7 +62,8 @@ function getAddress() {
 
 const config = {
   port: process.env.PORT || 8080,
-  host: "http://192.168.12.252",
+  host: "0.0.0.0",
+  // host: "http://192.168.12.252",
   routes: {
     cors: {
         origin: ['http://localhost:4200'], // an array of origins or 'ignore'
@@ -211,6 +212,17 @@ const init = async () => {
       return data;
     },
   });
+
+  server.route({
+    method: "GET",
+    path: "/health",
+    config: {
+      cors
+    },
+    handler: async(request, res) => {
+      return "ok";
+    }
+  })
 
   server.route({
     method: "GET",
