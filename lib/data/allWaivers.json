@@ -1,0 +1,1161 @@
+[
+  [],
+  [
+    {
+      "team": 4,
+      "pu": "2559242",
+      "drop": "2570059",
+      "time": 1730856750883,
+      "order": 1,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 4,
+      "pu": "2555478",
+      "drop": "2570059",
+      "time": 1730953733311,
+      "order": 2,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 4,
+      "pu": "2564319",
+      "drop": "2562293",
+      "time": 1730953865915,
+      "order": 3,
+      "active": true,
+      "changes": []
+    }
+  ],
+  [
+    {
+      "team": 2,
+      "pu": "2559242",
+      "IR": true,
+      "drop": "2563848",
+      "time": 1730958095646,
+      "order": 1,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 2,
+      "pu": "2567256",
+      "IR": true,
+      "drop": "2563848",
+      "time": 1730958284022,
+      "order": 2,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 2,
+      "pu": "2564319",
+      "IR": true,
+      "drop": "2563848",
+      "time": 1730958459905,
+      "order": 3,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730958476744
+        }
+      ]
+    },
+    {
+      "team": 2,
+      "pu": "2555478",
+      "IR": true,
+      "drop": "2563848",
+      "time": 1730958471822,
+      "order": 4,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730958481976
+        }
+      ]
+    },
+    {
+      "team": 2,
+      "pu": "2566571",
+      "IR": true,
+      "drop": "2563848",
+      "time": 1730958316134,
+      "order": 5,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 4,
+          "time": 1730958476744
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 5,
+          "time": 1730958481976
+        }
+      ]
+    }
+  ],
+  [],
+  [
+    {
+      "team": 10,
+      "pu": "2559242",
+      "drop": "2557991",
+      "time": 1730918970925,
+      "order": 1,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 10,
+      "pu": "2555478",
+      "drop": "2557991",
+      "time": 1730919009693,
+      "order": 2,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 2,
+          "time": 1730924237607
+        }
+      ]
+    },
+    {
+      "team": 10,
+      "pu": "2566502",
+      "drop": "2557991",
+      "time": 1730919070501,
+      "order": 3,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730924242326
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730924243404
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730924244953
+        }
+      ]
+    },
+    {
+      "team": 10,
+      "pu": "2569726",
+      "drop": "2557991",
+      "time": 1730919058119,
+      "order": 4,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 6,
+          "time": 1730924242326
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730924275413
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730924276660
+        }
+      ]
+    },
+    {
+      "team": 10,
+      "pu": "2560994",
+      "drop": "2557991",
+      "time": 1730919018291,
+      "order": 5,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 5,
+          "time": 1730924243404
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 6,
+          "time": 1730924275413
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730924279822
+        }
+      ]
+    },
+    {
+      "team": 10,
+      "pu": "2566334",
+      "drop": "2557991",
+      "time": 1730918987418,
+      "order": 6,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 3,
+          "time": 1730924237607
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 4,
+          "time": 1730924244953
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 5,
+          "time": 1730924276660
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 6,
+          "time": 1730924279822
+        }
+      ]
+    }
+  ],
+  [],
+  [
+    {
+      "team": 9,
+      "pu": "2559242",
+      "drop": "2540154",
+      "time": 1730965876888,
+      "order": 1,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 9,
+      "pu": "2567256",
+      "drop": "2540154",
+      "time": 1730965887997,
+      "order": 2,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 9,
+      "pu": "2555478",
+      "drop": "2540154",
+      "time": 1730966125416,
+      "order": 3,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 9,
+      "pu": "2571994",
+      "drop": "2540154",
+      "time": 1730966266372,
+      "order": 4,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 9,
+      "pu": "2566502",
+      "drop": "2540154",
+      "time": 1730966445561,
+      "order": 5,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730966450800
+        }
+      ]
+    },
+    {
+      "team": 9,
+      "pu": "2562693",
+      "drop": "2540154",
+      "time": 1730966356742,
+      "order": 6,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 6,
+          "time": 1730966450800
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "team": 7,
+      "pu": "2559242",
+      "IR": true,
+      "drop": "2566163",
+      "time": 1730956170018,
+      "order": 1,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 1,
+          "time": 1730956534195
+        }
+      ]
+    },
+    {
+      "team": 7,
+      "pu": "2571994",
+      "drop": "2562600",
+      "time": 1730965226283,
+      "order": 2,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730965299654
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730965301422
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730965302519
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 2,
+          "time": 1730965305017
+        },
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 3,
+          "time": 1730965310588
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 2,
+          "time": 1730965363434
+        }
+      ]
+    },
+    {
+      "team": 7,
+      "pu": "2564319",
+      "drop": "2562600",
+      "time": 1730965250913,
+      "order": 3,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 6,
+          "time": 1730965299654
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730965301422
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730965302519
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730965305017
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 2,
+          "time": 1730965310588
+        },
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 3,
+          "time": 1730965363434
+        }
+      ]
+    },
+    {
+      "team": 7,
+      "pu": "2566334",
+      "IR": true,
+      "drop": "2566163",
+      "time": 1730965399948,
+      "order": 4,
+      "active": true,
+      "changes": []
+    }
+  ],
+  [
+    {
+      "team": 5,
+      "pu": "100017",
+      "drop": "100007",
+      "time": 1730930544496,
+      "order": 1,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 5,
+      "pu": "100026",
+      "drop": "100007",
+      "time": 1730931377962,
+      "order": 2,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 5,
+      "pu": "100001",
+      "drop": "100007",
+      "time": 1730931388982,
+      "order": 3,
+      "active": true,
+      "changes": []
+    }
+  ],
+  [
+    {
+      "team": 6,
+      "pu": "2555478",
+      "IR": true,
+      "drop": "2562721",
+      "time": 1730960875717,
+      "order": 1,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 1,
+          "to": 2,
+          "time": 1730966149185
+        },
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 1,
+          "time": 1730966304743
+        }
+      ]
+    },
+    {
+      "team": 6,
+      "pu": "2560994",
+      "IR": true,
+      "drop": "2562721",
+      "time": 1730961676211,
+      "order": 2,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 2,
+          "time": 1730965592340
+        },
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 1,
+          "time": 1730966149185
+        },
+        {
+          "type": "move-waiver",
+          "from": 1,
+          "to": 2,
+          "time": 1730966304743
+        }
+      ]
+    },
+    {
+      "team": 6,
+      "pu": "2565477",
+      "IR": true,
+      "drop": "2562721",
+      "time": 1730960921013,
+      "order": 3,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 3,
+          "time": 1730965592340
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 4,
+          "time": 1730966126694
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730966128299
+        }
+      ]
+    },
+    {
+      "team": 6,
+      "pu": "2564319",
+      "IR": true,
+      "drop": "2562721",
+      "time": 1730965815412,
+      "order": 4,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730966125388
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730966126694
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 4,
+          "time": 1730966128299
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 5,
+          "time": 1730966131934
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730966136099
+        }
+      ]
+    },
+    {
+      "team": 6,
+      "pu": "2572498",
+      "IR": true,
+      "drop": "2562721",
+      "time": 1730965762192,
+      "order": 5,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 5,
+          "time": 1730966125388
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730966131934
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 5,
+          "time": 1730966136099
+        }
+      ]
+    },
+    {
+      "team": 6,
+      "pu": "2562693",
+      "IR": true,
+      "drop": "2562721",
+      "time": 1730966114578,
+      "order": 6,
+      "active": true,
+      "changes": []
+    },
+    {
+      "team": 6,
+      "pu": "2566502",
+      "IR": true,
+      "drop": "2562721",
+      "time": 1730966178084,
+      "order": 7,
+      "active": true,
+      "changes": []
+    }
+  ],
+  [
+    {
+      "team": 11,
+      "pu": "2561153",
+      "IR": true,
+      "drop": "2572273",
+      "time": 1730945224041,
+      "order": 1,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 11,
+          "to": 10,
+          "time": 1730945268863
+        },
+        {
+          "type": "move-waiver",
+          "from": 10,
+          "to": 9,
+          "time": 1730945272189
+        },
+        {
+          "type": "move-waiver",
+          "from": 9,
+          "to": 8,
+          "time": 1730945273213
+        },
+        {
+          "type": "move-waiver",
+          "from": 8,
+          "to": 7,
+          "time": 1730945274887
+        },
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 6,
+          "time": 1730945276443
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730945279439
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730945281189
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730945445733
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 2,
+          "time": 1730945446983
+        },
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 1,
+          "time": 1730945447999
+        }
+      ]
+    },
+    {
+      "team": 11,
+      "pu": "2572201",
+      "IR": true,
+      "drop": "2572273",
+      "time": 1730945246601,
+      "order": 2,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 12,
+          "to": 11,
+          "time": 1730945285605
+        },
+        {
+          "type": "move-waiver",
+          "from": 11,
+          "to": 10,
+          "time": 1730945294279
+        },
+        {
+          "type": "move-waiver",
+          "from": 10,
+          "to": 9,
+          "time": 1730945295997
+        },
+        {
+          "type": "move-waiver",
+          "from": 9,
+          "to": 8,
+          "time": 1730945297211
+        },
+        {
+          "type": "move-waiver",
+          "from": 8,
+          "to": 7,
+          "time": 1730945298431
+        },
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 6,
+          "time": 1730945299739
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730945301077
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730945445733
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730945446983
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 2,
+          "time": 1730945447999
+        }
+      ]
+    },
+    {
+      "team": 11,
+      "pu": "100017",
+      "drop": "100021",
+      "time": 1730901835363,
+      "order": 3,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 4,
+          "time": 1730905145314
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 5,
+          "time": 1730905149892
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 6,
+          "time": 1730944966201
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 7,
+          "time": 1730945276443
+        },
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 6,
+          "time": 1730945285605
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 7,
+          "time": 1730945299739
+        },
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 6,
+          "time": 1730945304629
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730945445733
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730945446983
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730945447999
+        }
+      ]
+    },
+    {
+      "team": 11,
+      "pu": "100001",
+      "drop": "100021",
+      "time": 1730901853425,
+      "order": 4,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 5,
+          "time": 1730905144482
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 6,
+          "time": 1730905149039
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 7,
+          "time": 1730944965195
+        },
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 8,
+          "time": 1730945274887
+        },
+        {
+          "type": "move-waiver",
+          "from": 8,
+          "to": 7,
+          "time": 1730945285605
+        },
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 8,
+          "time": 1730945298431
+        },
+        {
+          "type": "move-waiver",
+          "from": 8,
+          "to": 7,
+          "time": 1730945304629
+        },
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 6,
+          "time": 1730945445733
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730945446983
+        },
+        {
+          "type": "move-waiver",
+          "from": 5,
+          "to": 4,
+          "time": 1730945447999
+        }
+      ]
+    },
+    {
+      "team": 11,
+      "pu": "2567685",
+      "IR": true,
+      "time": 1730921106716,
+      "order": 5,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 8,
+          "to": 9,
+          "time": 1730945273213
+        },
+        {
+          "type": "move-waiver",
+          "from": 9,
+          "to": 8,
+          "time": 1730945285605
+        },
+        {
+          "type": "move-waiver",
+          "from": 8,
+          "to": 9,
+          "time": 1730945297211
+        },
+        {
+          "type": "move-waiver",
+          "from": 9,
+          "to": 8,
+          "time": 1730945304629
+        },
+        {
+          "type": "move-waiver",
+          "from": 8,
+          "to": 7,
+          "time": 1730945445733
+        },
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 6,
+          "time": 1730945446983
+        },
+        {
+          "type": "move-waiver",
+          "from": 6,
+          "to": 5,
+          "time": 1730945447999
+        }
+      ]
+    },
+    {
+      "team": 11,
+      "pu": "2566334",
+      "drop": "2562796",
+      "time": 1730921174111,
+      "order": 6,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 9,
+          "to": 10,
+          "time": 1730945272189
+        },
+        {
+          "type": "move-waiver",
+          "from": 10,
+          "to": 9,
+          "time": 1730945285605
+        },
+        {
+          "type": "move-waiver",
+          "from": 9,
+          "to": 10,
+          "time": 1730945295997
+        },
+        {
+          "type": "move-waiver",
+          "from": 10,
+          "to": 9,
+          "time": 1730945304629
+        },
+        {
+          "type": "move-waiver",
+          "from": 9,
+          "to": 8,
+          "time": 1730945445733
+        },
+        {
+          "type": "move-waiver",
+          "from": 8,
+          "to": 7,
+          "time": 1730945446983
+        },
+        {
+          "type": "move-waiver",
+          "from": 7,
+          "to": 6,
+          "time": 1730945447999
+        }
+      ]
+    },
+    {
+      "team": 11,
+      "pu": "2567256",
+      "drop": "2562796",
+      "time": 1730930493485,
+      "order": 7,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 10,
+          "to": 11,
+          "time": 1730945268863
+        },
+        {
+          "type": "move-waiver",
+          "from": 11,
+          "to": 10,
+          "time": 1730945285605
+        },
+        {
+          "type": "move-waiver",
+          "from": 10,
+          "to": 11,
+          "time": 1730945294279
+        },
+        {
+          "type": "move-waiver",
+          "from": 11,
+          "to": 10,
+          "time": 1730945304629
+        },
+        {
+          "type": "move-waiver",
+          "from": 10,
+          "to": 9,
+          "time": 1730945445733
+        },
+        {
+          "type": "move-waiver",
+          "from": 9,
+          "to": 8,
+          "time": 1730945446983
+        },
+        {
+          "type": "move-waiver",
+          "from": 8,
+          "to": 7,
+          "time": 1730945447999
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "team": 8,
+      "pu": "2558091",
+      "drop": "2567508",
+      "time": 1730952798020,
+      "order": 1,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 1,
+          "to": 2,
+          "time": 1730954861400
+        },
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 3,
+          "time": 1730954864845
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 2,
+          "time": 1730955024140
+        },
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 1,
+          "time": 1730955025652
+        }
+      ]
+    },
+    {
+      "team": 8,
+      "pu": "2570119",
+      "drop": "2567508",
+      "time": 1730953048362,
+      "order": 2,
+      "active": true,
+      "changes": [
+        {
+          "type": "move-waiver",
+          "from": 2,
+          "to": 3,
+          "time": 1730954860340
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 4,
+          "time": 1730954863358
+        },
+        {
+          "type": "move-waiver",
+          "from": 4,
+          "to": 3,
+          "time": 1730955036165
+        },
+        {
+          "type": "move-waiver",
+          "from": 3,
+          "to": 2,
+          "time": 1730955037036
+        }
+      ]
+    }
+  ]
+]

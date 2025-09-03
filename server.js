@@ -3,8 +3,10 @@
 "use strict";
 
 const Hapi = require("@hapi/hapi");
+const Inert = require("@hapi/inert");
 const Path = require('path');
 const cflapi = require("./lib/cflapi.js");
+const fs = require('fs');
 const cors = {
   origin: ["*"],
   // headers: [
@@ -66,9 +68,9 @@ const config = {
   // host: "http://192.168.12.252",
   routes: {
     cors: {
-        origin: ['http://localhost:4200'], // an array of origins or 'ignore'
+        origin: ['*'], // an array of origins or 'ignore'
         "headers": ["Accept", "Content-Type"],
-        "additionalHeaders": ["X-Requested-With"]
+        "additionalHeaders": ['cache-control', 'x-requested-with']
     },
     files: {
       relativeTo: Path.join(__dirname, 'images')
@@ -80,7 +82,7 @@ const init = async () => {
   await getAddress()
     .then((res) => {
       console.log("host address is " + res);
-      config.host = res; //"0.0.0.0"; //res;
+      config.host = "192.168.12.244"; //"0.0.0.0"; //res;
     })
     .catch((err) => {
       console.log("cannot get ip address", err);
@@ -91,22 +93,48 @@ const init = async () => {
 
   server.route({
     method: "POST",
-    path: "/api/uploadlogo",
+    path: "/api/updateTeamName",
     config: {
-      cors,
+      cors
     },
-    handler: function(request, res) {
-        singleUpload(request, res, err => {
-          if (err) {
-            console.log('oops there was an error');
-            return res.status(422).send({errors: [{title: 'File Upload Error', detail: err.message}] });
-          } else {
-            imageName =  req.file.filename;
-            var imagePath = req.file.path;
-            console.log(imagePath);
-            return res.send({success:true,  imageName});
+    handler: async function(request, h) {
+        const data = request.payload;
+        await cflapi.UpdateTeam(data.teamid, "team_name", data.teamname);
+        return h.response({ message: 'Name Updated successfully', data: data.teamname }).code(200);
+    }
+  })
+
+  server.route({
+    method: "POST",
+    path: "/api/uploadlogo",
+    options: {
+        payload: {
+            output: 'stream', // Output as a stream for file handling
+            parse: true,
+            multipart: true, // Enable multipart parsing
+            maxBytes: 10 * 1024 * 1024
+        }
+    },
+    handler: async function(request, h) {
+        const data = request.payload;
+        if (data.image) {
+          const filename = data.teamid + "_" + data.image.hapi.filename;
+          const uploadPath = path.join(__dirname, 'images', filename);
+
+          const fileStream = fs.createWriteStream(uploadPath);
+          await new Promise((resolve, reject) => {
+              data.image.on('error', (err) => reject(err));
+              data.image.pipe(fileStream);
+              data.image.on('end', (err) => {
+                if (err) reject(err);
+                resolve(true);
+              });
+            });
+            await cflapi.UpdateTeam(parseInt(data.teamid), "logo", filename);
+
+            return h.response({ message: 'File uploaded successfully', filename }).code(200);
           }
-        })
+        return h.response({ message: 'No file uploaded' }).code(400);
     }
   })
 
@@ -185,6 +213,7 @@ const init = async () => {
       cors
     },
     handler: async (req, res) => {
+      console.log('Reset Password: ', req.payload.owner_id);
       return await cflapi.PasswordReset(req.payload.owner_id);
     }
   })
@@ -218,9 +247,7 @@ const init = async () => {
     config: {
       cors
     },
-    handler: async(request, res) => {
-      return "ok";
-    }
+    handler: () => "ok"
   })
 
   server.route({
