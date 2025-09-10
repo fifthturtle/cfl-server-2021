@@ -7,6 +7,9 @@ const Inert = require("@hapi/inert");
 const Path = require('path');
 const cflapi = require("./lib/cflapi.js");
 const fs = require('fs');
+const {
+    getCurrentWeek
+} = require("./lib/general");
 const cors = {
   origin: ["*"],
   // headers: [
@@ -101,6 +104,31 @@ const init = async () => {
         const data = request.payload;
         await cflapi.UpdateTeam(data.teamid, "team_name", data.teamname);
         return h.response({ message: 'Name Updated successfully', data: data.teamname }).code(200);
+    }
+  })
+
+  server.route({
+    method: "POST",
+    path: "/api/updateBlitz",
+    config: {
+      cors
+    },
+    handler: async function(request, h) {
+        const data = request.payload;
+        await cflapi.UpdateBlitz(data);
+        return h.response({ message: 'Blitz Updated successfully', data, success:true }).code(200);
+    }
+  })
+
+  server.route({
+    method: "GET",
+    path: "/api/GetBlitz",
+    config: {
+      cors,
+    },
+    handler: async (request, h) => {
+      var blitz = await cflapi.GetBlitz();
+      return h.response({ blitz, success: true });
     }
   })
 
