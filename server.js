@@ -127,7 +127,7 @@ const init = async () => {
       cors,
     },
     handler: async (request, h) => {
-      var blitz = await cflapi.GetBlitz();
+      var blitz = await cflapi.GetBlitz(request.query.week ?? 0);
       return h.response({ blitz, success: true });
     }
   })
