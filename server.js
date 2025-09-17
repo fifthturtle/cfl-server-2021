@@ -133,6 +133,18 @@ const init = async () => {
   })
 
   server.route({
+    method: "GET",
+    path: "/api/CurrentRound",
+    config: {
+      cors,
+    },
+    handler: async (request, h) => {
+      var round = await cflapi.currentRound();
+      return h.response(round);
+    }
+  })
+
+  server.route({
     method: "POST",
     path: "/api/uploadlogo",
     options: {
