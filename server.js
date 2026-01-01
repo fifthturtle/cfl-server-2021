@@ -3,8 +3,13 @@
 "use strict";
 
 const Hapi = require("@hapi/hapi");
+const Inert = require("@hapi/inert");
 const Path = require('path');
 const cflapi = require("./lib/cflapi.js");
+const fs = require('fs');
+const {
+    getCurrentWeek
+} = require("./lib/general");
 const cors = {
   origin: ["*"],
   // headers: [
@@ -62,12 +67,13 @@ function getAddress() {
 
 const config = {
   port: process.env.PORT || 8080,
-  host: "http://192.168.12.252",
+  host: "0.0.0.0",
+  // host: "http://192.168.12.252",
   routes: {
     cors: {
-        origin: ['http://localhost:4200'], // an array of origins or 'ignore'
+        origin: ['*'], // an array of origins or 'ignore'
         "headers": ["Accept", "Content-Type"],
-        "additionalHeaders": ["X-Requested-With"]
+        "additionalHeaders": ['cache-control', 'x-requested-with']
     },
     files: {
       relativeTo: Path.join(__dirname, 'images')
@@ -79,7 +85,7 @@ const init = async () => {
   await getAddress()
     .then((res) => {
       console.log("host address is " + res);
-      config.host = res; //"0.0.0.0"; //res;
+      config.host = "0.0.0.0" //"192.168.12.244"; //res;
     })
     .catch((err) => {
       console.log("cannot get ip address", err);
@@ -90,23 +96,85 @@ const init = async () => {
 
   server.route({
     method: "POST",
-    path: "/api/uploadlogo",
+    path: "/api/updateTeamName",
+    config: {
+      cors
+    },
+    handler: async function(request, h) {
+        const data = request.payload;
+        await cflapi.UpdateTeam(data.teamid, "team_name", data.teamname);
+        return h.response({ message: 'Name Updated successfully', data: data.teamname }).code(200);
+    }
+  })
+
+  server.route({
+    method: "POST",
+    path: "/api/updateBlitz",
+    config: {
+      cors
+    },
+    handler: async function(request, h) {
+        const data = request.payload;
+        await cflapi.UpdateBlitz(data);
+        return h.response({ message: 'Blitz Updated successfully', data, success:true }).code(200);
+    }
+  })
+
+  server.route({
+    method: "GET",
+    path: "/api/GetBlitz",
     config: {
       cors,
     },
-    handler: function(request, res) {
-        console.log('I am Matt Sutton!');
-        singleUpload(request, res, err => {
-          if (err) {
-            console.log('oops there was an error');
-            return res.status(422).send({errors: [{title: 'File Upload Error', detail: err.message}] });
-          } else {
-            imageName =  req.file.filename;
-            var imagePath = req.file.path;
-            console.log(imagePath);
-            return res.send({success:true,  imageName});
+    handler: async (request, h) => {
+      var blitz = await cflapi.GetBlitz(request.query.week ?? 0);
+      return h.response({ blitz, success: true });
+    }
+  })
+
+  server.route({
+    method: "GET",
+    path: "/api/CurrentRound",
+    config: {
+      cors,
+    },
+    handler: async (request, h) => {
+      var round = await cflapi.currentRound();
+      return h.response(round);
+    }
+  })
+
+  server.route({
+    method: "POST",
+    path: "/api/uploadlogo",
+    options: {
+        payload: {
+            output: 'stream', // Output as a stream for file handling
+            parse: true,
+            multipart: true, // Enable multipart parsing
+            maxBytes: 10 * 1024 * 1024
+        }
+    },
+    handler: async function(request, h) {
+        const data = request.payload;
+        if (data.image) {
+          const filename = data.teamid + "_" + data.image.hapi.filename;
+          const uploadPath = path.join(__dirname, 'images', filename);
+
+          const fileStream = fs.createWriteStream(uploadPath);
+          await new Promise((resolve, reject) => {
+              data.image.on('error', (err) => reject(err));
+              data.image.pipe(fileStream);
+              data.image.on('end', (err) => {
+                if (err) reject(err);
+                resolve(true);
+              });
+            });
+            await cflapi.UpdateTeam(parseInt(data.teamid), "logo", filename);
+
+            return h.response({ message: 'File uploaded successfully', filename }).code(200);
           }
-        })
+        return h.response({ message: 'No file uploaded' }).code(400);
     }
   })
 
@@ -120,6 +188,18 @@ const init = async () => {
       return h.file(request.params.image);
     }
   });
+
+  server.route({
+    method: "POST",
+    path: "/api/wnba",
+    config: {
+      cors,
+    },
+    handler: async (request, h) => {
+      return await cflapi.wnba(request.payload);
+    }
+  })
+
 
   server.route({
     method: "GET",
@@ -173,6 +253,7 @@ const init = async () => {
       cors
     },
     handler: async (req, res) => {
+      console.log('Reset Password: ', req.payload.owner_id);
       return await cflapi.PasswordReset(req.payload.owner_id);
     }
   })
@@ -199,6 +280,15 @@ const init = async () => {
       return data;
     },
   });
+
+  server.route({
+    method: "GET",
+    path: "/health",
+    config: {
+      cors
+    },
+    handler: () => "ok"
+  })
 
   server.route({
     method: "GET",
